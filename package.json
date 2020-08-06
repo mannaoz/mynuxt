@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nuxt"
+    "serve": "nuxt"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,13 @@
   "homepage": "https://github.com/mannaoz/mynuxt#readme",
   "dependencies": {
     "nuxt": "^2.14.1"
+  },
+  "devDependencies": {
+    "coffee-loader": "^1.0.0",
+    "coffeescript": "^2.5.1",
+    "node-sass": "^4.14.1",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^9.0.3"
   }
 }
